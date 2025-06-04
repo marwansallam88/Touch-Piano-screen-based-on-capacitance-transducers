@@ -1,6 +1,9 @@
 # Touch Piano Screen Based On Capacitance Transducers
 
 ## Project Overview
+<p align="center">
+  <img src="Photos/Cap_Piano.jpg" alt="Description" width="400"/>
+</p>
 
 ### Technical Concept
 A microcontroller-based electronic piano that utilizes capacitive sensing technology to replace traditional mechanical keys. The system employs RC time constant measurements to detect touch inputs with variable sensitivity, enabling:
@@ -33,11 +36,19 @@ A microcontroller-based electronic piano that utilizes capacitive sensing techno
 ## Technical Implementation
 
 ### Sensing System
+<p align="center">
+  <img src="Photos/Cap_Piano_Circuit.png" alt="Description" width="400"/>
+</p>
+
 - 7× copper PCB pads (20mm² each)  
 - 1MΩ current-limiting resistors  
 - CapacitiveSensor library for Arduino
 
 ### Control Unit
+<p align="center">
+  <img src="Photos/Cap_Piano_PCB.png" alt="Description" width="400"/>
+</p>
+
 - ATmega328P microcontroller  
 - Custom PCB layout  
 - 16MHz clock frequency
