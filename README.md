@@ -1,4 +1,4 @@
-# Touch-Piano-screen-based-on-capacitance-transducers
+# Touch Piano Screen Based On Capacitance Transducers
 
 ## Project Overview
 
