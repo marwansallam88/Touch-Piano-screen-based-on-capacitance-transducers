@@ -56,7 +56,7 @@ A microcontroller-based electronic piano that utilizes capacitive sensing techno
 
 ## Performance Characteristics
 
-### Transfer Function:
+### Transfer Function
 -
     ```math
           H(s) = \frac{1}{\tau s + 1}, \quad \tau \in [0.001, 0.174] \text{ s}
